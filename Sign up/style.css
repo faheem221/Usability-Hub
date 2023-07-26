@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.header{
+    min-height: 60px;
+    width:100%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+
+.header_logo{
+    padding-left:30px;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10rem;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.wrapper2{
+
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    margin-left: 40px;
+    border-radius: 5px;
+    max-width:500px;
+    height: 670px;
+    background-color: rgb(39, 39, 39);
+    flex-wrap: wrap;
+
+}
+
+.term{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.term p{
+    margin-top: 15px;
+    font-size:12px;
+    color:white;
+    padding-left: 20px;
+}
+.wrapper .email{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size:16px;
+    color:white;
+    padding-left: 20px;
+}
+.wrapper .password{
+    margin-top: 30px;
+    margin-bottom:10px ;
+    font-size:16px;
+    color:white;
+    padding-left: 20px;
+
+}
+
+
+.wrapper .name{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size:16px;
+    color:white;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.wrapper .organisation{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size:16px;
+    color:white;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width:90%;
+    border:.2px solid rgb(213, 213, 213);
+    height: 39px;
+    background-color: black;
+    border-radius: 4px;
+    transition: .5s;
+    color:white;
+}
+
+.input input:focus{
+    outline: .2px solid blue;
+}
+
+.input input:hover{
+    border:1px solid rgb(139, 159, 162)
+}
+
+.input input:valid~#Log_in{
+    color:red;
+}
+
+.toggle{
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    color: white;
+    gap:10px;
+    
+    align-items: center;
+}
+.toggle .parent{
+    width:35px;
+    height: 19px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+}
+.toggle .parent:hover{
+    cursor: pointer;
+}
+.child{
+    margin-left: 1px;
+    width:18px;
+    height: 18px;
+    border-radius: 99px;
+    background-color: rgb(195, 193, 193);
+}
+.imp{
+    color:red;
+}
+
+.sign_in{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#Log_in{
+    width:90px;
+    color:white;
+    background-color: rgb(150, 64, 230);
+    border: 0;
+    width:90%;
+    height: 39px;
+    border-radius: 4px;
+}
+
+#Log_in:hover{
+    background-color:rgb(116, 50, 176) ;
+    cursor: pointer;
+}
+.seprator{
+    
+    margin-top: 40px;
+    font-size: 14px;
+   
+    display: flex;
+    justify-content: center;
+    color: white;  
+    align-items: center;
+}
+.seprator p{
+    margin-left: 10px;
+    margin-right:10px;
+}
+.seprator .line{
+    width:157px;
+    height: .5px;
+    background-color: white;
+}
+
+.button2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Google_button{
+    height: 40px;
+    color:white;
+    border-radius:4px;
+    width:180px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    font-size:14px;
+    
+    background-color: transparent;
+    transition: .3s;
+}
+.forget{
+    margin-left: 95px;
+}
+.forget a{
+    color:violet;
+}
+
+
+.Google_button:hover{
+    background-color: rgba(0, 255, 255, 0.044);
+    cursor: pointer;
+}
+.sign_up{
+    color:white;
+    font-size:16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sign_up a{
+    text-decoration: none;
+    color:violet;
+}
+
+a:hover{
+    color: rgb(179, 99, 179);
+}
+
+@keyframes slide_right{
+    100%{
+        transform: translateX(15px);
+
+    }
+}
+
+@keyframes slide_left{
+    0%{
+        transform: translateX(14px);
+    }
+    100%{
+        transform: translateX(0px);
+
+    }
+}
+
+.welcome{
+    margin-top: 28px;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 115px;
+}
+
+.welcome h4{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper2 .box1{
+    max-width: 80%;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.wrapper2 .box2{
+    max-width:90%;
+    margin-top: 60px;
+
+
+}
